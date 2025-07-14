@@ -1,0 +1,63 @@
+# ------------------------------------
+# การตั้งค่าสำหรับปลั๊กอิน BsruHubPVP
+# ------------------------------------
+# ตัวแปรที่ใช้ในข้อความได้: %player%, %time%, %kills%
+# ข้อความทั้งหมดรองรับโค้ดสีด้วยเครื่องหมาย &
+# รายชื่อเสียงทั้งหมด: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+
+# การตั้งค่าทั่วไป
+settings:
+  # เวลานับถอยหลัง (วินาที)
+  countdown-seconds: 5
+
+# การตั้งค่าไอเทม
+items:
+  sword:
+    name: "&cดาบ PVP"
+    # --- เพิ่มส่วนนี้เข้าไป ---
+    lore:
+      - "&7ดาบสำหรับผู้ที่พร้อมจะต่อสู้"
+    enchantments:
+      sharpness-level: 5
+  armor:
+    name: "&a&lเกราะศักดิ์สิทธิ์"
+    lore:
+      - "&7เกราะที่ถูกตีขึ้นเพื่อแชมป์เปี้ยน"
+      - "&7แห่งการประลอง"
+    enchantments:
+      protection-level: 2
+      unbreaking-level: 10
+
+# ข้อความทั้งหมดที่จะแสดงให้ผู้เล่นเห็น
+messages:
+  prefix: "&8[&bBSRU&fPVP&8] &r"
+  no-permission: "%prefix%&cคุณไม่มีสิทธิ์ใช้คำสั่งนี้"
+  get-sword-success: "%prefix%&aคุณได้รับ &eดาบ PVP&a!"
+  reload-success: "%prefix%&aรีโหลดการตั้งค่าเรียบร้อยแล้ว"
+
+  # ข้อความนับถอยหลัง
+  countdown:
+    equip: "&aกำลังเข้าสู่โหมด PVP ใน &e%time% &aวินาที..."
+    equip-cancel: "&cยกเลิกการสวมเกราะ"
+    equip-success: "&bคุณได้เข้าสู่โหมด PVP แล้ว!"
+    unequip: "&eกำลังปิดโหมด PVP ในอีก &e%time% &eวินาที..."
+    unequip-cancel: "&aยกเลิกการปการออกจาก PVP"
+    unequip-success: "&7คุณได้ออกจากโหมด PVP"
+
+  # ข้อความเกี่ยวกับการต่อสู้
+  pvp:
+    cant-remove-armor: "&cไม่สามารถถอดเกราะนี้ได้ขณะอยู่ในโหมด PVP"
+    attacker-not-ready: "&cคุณต้องอยู่ในโหมด PVP ก่อนถึงจะสู้ได้"
+    victim-not-ready: "&eผู้เล่น %player% ยังไม่พร้อมต่อสู้"
+    health-display: "&c❤ %.1f &8| &e%player%" # %.1f คือค่าพลังชีวิต (เช่น 18.5)
+
+# รูปแบบข้อความสำหรับ PlaceholderAPI
+placeholders:
+  top-kill-format: "%player% &7- &e%kills% Kills"
+  top-kill-not-available: ""
+
+# เสียงประกอบทั้งหมดของปลั๊กอิน
+sounds:
+  countdown-tick: "UI_BUTTON_CLICK"
+  equip-success: "ENTITY_PLAYER_LEVELUP"
+  unequip-success: "ITEM_ARMOR_EQUIP_GENERIC"

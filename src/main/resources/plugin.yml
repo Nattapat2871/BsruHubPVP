@@ -1,0 +1,25 @@
+name: BsruHubPVP
+version: 1.0
+main: com.bsruHubPVP.BsruHubPVP
+api-version: '1.20'
+author: Nattapat2871
+description: Advanced PVP system with configurable items, messages, and leaderboards.
+softdepend: [PlaceholderAPI]
+
+commands:
+  bsruhubpvp:
+    description: Main command for the BsruHubPVP plugin.
+    usage: /<command> [getsword|reload]
+    # ลบบรรทัด aliases ออกจากตรงนี้
+    permission: bsruhubpvp.command.use
+
+permissions:
+  bsruhubpvp.command.use:
+    description: Allows using the main /bsruhubpvp command.
+    default: true
+  bsruhubpvp.command.getsword:
+    description: Allows using the /bsruhubpvp getsword subcommand.
+    default: op
+  bsruhubpvp.command.reload:
+    description: Allows using the /bsruhubpvp reload subcommand.
+    default: op
