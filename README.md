@@ -1,5 +1,20 @@
 # BsruHubPVP
 
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Nattapat2871/BsruHubPVP?style=flat-square)](https://github.com/Nattapat2871/BsruHubPVP/stargazers)
+![Visitor Badge](https://api.visitorbadge.io/api/VisitorHit?user=Nattapat2871&repo=BsruHubPVP&countColor=%237B1E7A&style=flat-square)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Nattapat2871)
+
+</div>
+
+<p align= "center">
+        <b>English</b>　<a href="/README_TH.md">ภาษาไทย</a>
+
+
 BsruHubPVP is an advanced Player vs. Player management plugin designed for hub or event servers. It creates a controlled PVP environment where players must actively opt-in to combat by holding a specific item, receiving a full set of enchanted armor to fight. The system is fully configurable, from items and messages to sounds and leaderboards.
 
 ---

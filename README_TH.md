@@ -1,5 +1,21 @@
 # BsruHubPVP
 
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Nattapat2871/BsruHubPVP?style=flat-square)](https://github.com/Nattapat2871/BsruHubPVP/stargazers)
+![Visitor Badge](https://api.visitorbadge.io/api/VisitorHit?user=Nattapat2871&repo=BsruHubPVP&countColor=%237B1E7A&style=flat-square)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Nattapat2871)
+
+</div>
+
+<p align= "center">
+        <a href="/README.md">English</a>   <b>ภาษาไทย</b>　
+
+
+
 BsruHubPVP คือปลั๊กอินสำหรับจัดการระบบ PVP ขั้นสูงที่ออกแบบมาสำหรับเซิร์ฟเวอร์ Hub หรือเซิร์ฟเวอร์จัดอีเวนต์โดยเฉพาะ โดยจะสร้างโซน PVP ที่ผู้เล่นต้องแสดงเจตจำนงเพื่อเข้าร่วมการต่อสู้ด้วยตัวเอง ผ่านการถือไอเทมที่กำหนดเพื่อรับชุดเกราะพิเศษสำหรับต่อสู้ ทำให้การต่อสู้มีความยุติธรรมและสนุกสนานยิ่งขึ้น ระบบทั้งหมดสามารถปรับแต่งได้อย่างเต็มที่ ตั้งแต่ไอเทม, ข้อความ, เสียง, ไปจนถึงบอร์ดจัดอันดับ
 
 ---
